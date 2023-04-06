@@ -1,0 +1,10 @@
+fill-shit: 
+  desc: "fillshit"
+customize-shit:
+  desc: "customize shit"
+comment-shit:
+  desc: "comment shit"
+  points:
+    kp: 5
+  custom:
+    some-custom-shit: "asdfsadasdf"

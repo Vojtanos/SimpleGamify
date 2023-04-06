@@ -1,0 +1,38 @@
+points-systems:
+	xp:
+		name: "zkušenostní body"
+	rp:
+		name: "drahokamy"
+
+levels:
+	level-0:
+		xp-required: 0
+	level-1:
+		xp-required: 15
+	level-2:
+		xp-required: 30
+	level-3:
+		xp-required: 30
+		kp-required: 12
+	level-4:
+		xp-required: 50
+		kp-required: 6
+
+challenges:
+	intro-to-english:
+		title: "Úvod do angličtiny"
+		desc: "Naučte se základy, mluvte o lidech a věcech"
+		last: 20
+		actions:
+			fill-form: 1
+		badge:
+			title: "puppy"
+			desc: "first steps"
+
+actions:
+	fill-form:
+		desc: "fill form"
+	customize-profile:
+		desc: "customize profile"
+	comment:
+		desc: "comment form"

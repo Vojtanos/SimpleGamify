@@ -1,0 +1,10 @@
+fill-form: 
+  desc: "Fill form"
+customize-profile:
+  desc: "Customize profile"
+comment:
+  desc: "Comment form"
+  points:
+    kp: 5
+  custom:
+    use-custom-if-needed: "For comment you can earn karma points that increase your credibility in the community."

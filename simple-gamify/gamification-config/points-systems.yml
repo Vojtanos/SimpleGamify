@@ -1,0 +1,8 @@
+xp:
+  desc: "Experience points"
+kp:
+  desc: "Karma points"
+  custom:
+    desc: "This points says about you a lot!"
+rp:
+  desc: "Redeemable points"

@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  ## Flask
+  api:
+    build: simple-gamify
+    container_name: sg-flask
+    volumes:
+      - ./simple-gamify:/simple-gamify
+    environment:
+      - DATABASE_URL=postgresql://admin:123a@sg-postgres-db:5432/gamify
+      - DEBUGGER=False
+    ports:
+      - "5001:5001"
+      - "10001:10001"
+    depends_on:
+      - postgres-db
+
+  ## Postgres database
+  postgres-db:
+    container_name: sg-postgres-db
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123a
+      POSTGRES_DB: gamify
+    ports:
+      - 5432:5432
+
+  ## Tool for managing postgres
+  adminer:
+    container_name: sg-adminer
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+    - postgres-db

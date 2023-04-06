@@ -1,0 +1,43 @@
+fill-1-form:
+  title: "Fill 1"
+  desc: "You can done this challenge by filling 1 form."
+  points:
+    xp: 5
+  actions:
+    fill-form: 1
+  custom:
+    badge:
+      title: "First form filled"
+      desc: "You received this reward for completing the first."
+      img-url: "https://plus.unsplash.com/premium_photo-1677572452964-91e968d02d6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
+fill-5-forms:
+  title: "Fill 5"
+  desc: "You can done this challenge by filling 5 forms"
+  points:
+    xp: 5
+  actions:
+    fill-form: 5
+  custom:
+    badge:
+      title: "5 forms done"
+      desc: "You are now experienced filler."
+      unlocked: "You unlocked some extra forms!"
+comment-and-customize:
+  title: "Commnent form"
+  desc: "Comment one time and customize you profile."
+  points:
+    xp: 10
+  actions:
+    comment: 1
+    customize-profile: 2
+advanced-filler:
+  title: "Advanced filler"
+  desc: "Comment 5 times and customize you profile."
+  points:
+    xp: 15
+    rp: 50
+  actions:
+    fill-form: 2
+  challenges: 
+    - fill-5-forms
+    - comment-and-customize

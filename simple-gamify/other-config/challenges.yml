@@ -1,0 +1,11 @@
+fill-1-shit:
+  title: "fill 1"
+  desc: "you can done this challenge by filling 1 form"
+  points:
+    xp: 5
+  actions:
+    fill-shit: 1
+  custom:
+    badge:
+      title: "puppy"
+      desc: "first steps"

@@ -1,0 +1,28 @@
+.DS_Store
+.gamify-env
+*.pyc
+*.pyo
+gamify-env/
+venv/
+.venv/
+gamify-env*
+dist/
+build/
+*.egg
+*.egg-info/
+.tox/
+.cache/
+.pytest_cache/
+.idea/
+docs/_build/
+.vscode
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
